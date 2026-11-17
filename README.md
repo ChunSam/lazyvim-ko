@@ -2,6 +2,8 @@
 
 LazyVim의 **단축키 메뉴(which-key)** 와 **시작 화면(대시보드)** 을 한국어로 보여 주는 패치입니다.
 
+> LazyVim 공식 프로젝트가 아닌 개인이 만든 비공식 패치입니다. 문제가 생기면 LazyVim 쪽이 아니라 이 저장소에 이슈를 남겨 주세요.
+
 ```
 ╭ 󱁐  » +화면 ──────────────────────────────╮
 │ a ➜  애니메이션 끄기                     │
@@ -74,3 +76,7 @@ nvim --headless +'lua vim.defer_fn(function() vim.cmd("doautocmd User VeryLazy")
 
 `MISSING`으로 나온 문구를 `dict.lua`에 추가하면 됩니다.
 LSP나 Git 단축키처럼 파일을 열어야 생기는 메뉴는 이 방법으로 잡히지 않습니다.
+
+## 라이선스
+
+[MIT](LICENSE)
